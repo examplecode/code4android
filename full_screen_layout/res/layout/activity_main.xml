@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+	<com.example.layoutanim.MyFrameLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:orientation="vertical"
+		android:id="@+id/main_root"
+		>
+<!-- android:background="@drawable/white" -->
+		<!-- top content area -->
+		<FrameLayout android:id="@+id/top_content"
+			android:layout_width="fill_parent" 
+			android:layout_height="70dip"
+			android:background="#0000ff"
+			android:layout_gravity="top"
+			/>
+		<!--  main content area  -->
+		<FrameLayout android:id="@+id/main_content"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			/>
+		<!--  bottom content area  -->
+		<FrameLayout android:id="@+id/bottom_content"
+			android:layout_width="fill_parent" 
+			android:layout_height="40dip"
+			android:background="#0000ff"
+			android:layout_gravity="bottom"
+			/>
+
+	</com.example.layoutanim.MyFrameLayout>
+
+</RelativeLayout>
