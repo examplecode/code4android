@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html> 
+	<head> 
+	<title>Tiny Crawler</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8"> 
+   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+	<script>
+	function cleanCrawlHistory() {
+		document.getElementById("history").innerHTML="";
+		window.crawler.cleanHistory();
+		
+	}
+	
+	function openSetting() {
+		window.crawler.openSetting();
+	}
+
+	function readCrawlHistory() {
+		list ="";
+		count = window.crawler.historyCount();
+		for(i=0;i< count;i++){
+			//var item = crawler.getHistoryItem(i);
+			var item = eval('(' + crawler.getHistoryItem(i)+ ')');
+			list +="<li><a href=\"" + item.url + "\">" + item.title + "</a></li>";
+		}
+		document.getElementById("history").innerHTML=list;
+	}
+	</script>
+</head> 
+
+<body> 
+
+<div data-role="page">
+<div data-role="navbar">
+	<ul>
+		<li><a href="home.html" class="ui-btn-active" >抓取历史</a></li>
+		<li><a href="nav.html"  >导航</a></li>
+		<li><a href="help.html">帮助</a></li>
+	</ul>
+</div><!-- /navbar -->
+	<div data-role="content">	
+	<!-- <a href="javascript:cleanCrawlHistory()" data-role="button"  data-icon="delete">清除抓取历史</a> -->
+	<a a href="javascript:cleanCrawlHistory()" data-role="button"   data-inline="true">清除历史</a>
+	<a href="javascript:openSetting()" data-role="button"   data-inline="true">抓取设置  </a>
+	<!--  <a href="http://m.google.cn" data-role="button"   data-inline="true">谷歌</a> -->
+	<hr></hr>
+	<ul id="history" data-role="listview">
+	<script>
+	readCrawlHistory();
+	</script>
+	</ul>
+	
+	<script> 
+	
+	
+	</script>
+	
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+
+</body>
+</html>

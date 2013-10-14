@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TinyCrawlerActivity!</string>
+    <string name="app_name">TinyCrawler</string>
+     <string name="page_status_offline">offline</string>
+    <string name="ex_c_menu_tab_text">crawler page</string>
+    <string name="ex_c_menu_link_text">crawler page</string>
+    
+    <string name="activity_lab_crawl_control_panel">Crawl control panel</string>
+    <string name="activity_lab_crawl_history">Crawl History</string>
+    <string name="activity_lab_crawl_setting">seting</string>
+    
+        
+        
+    <string name="title_crawl_data_dir">Setup crawl data dir</string>
+    <string name="summary_crawl_data_dir">setup crawl data directory you want to save </string>
+    <string name="dialog_title_crawl_data_dir">Setup crawl directory</string>
+    
+   
+   <string name="title_crawl_in_wifi_env">Crawl only in wifi</string>  
+   <string name="summary_crawl_in_wifi_env">cralw work will be auto stop if current network type is not wifi</string>  
+    
+   <string name="title_download_image">Download  image</string>  
+   <string name="summary_download_image">Crawled pages will download the image file, but this option will reduce the crawl rate</string>      
+  
+  
+   <string name="title_list_crawl_level">Default crawl level</string>  
+   <string name="summary_list_crawl_level">Setup crawl level</string>  
+   <string name="dialog_title_crawl_level">Select default crawl level</string>  
+   
+   <!-- crawl service  -->
+   
+    <string name="srv_name">crawler</string>
+    <string name="srv_crawl_started">start crawl ...</string>
+    <string name="srv_crawl_progress">crawled :[%1$s]/left : [%2$s] </string>
+    <string name="srv_crawl_running">crawl is running</string>
+    <string name="srv_crawl_finished">crawl has finished</string>
+    <string name="srv_crawl_paused">crawl has paused</string>
+    <string name="srv_crawl_stop_on_error">crawl encountered error to stop</string>
+    <string name="srv_crawl_cancel">User cancel crawl  process</string>
+    
+   <string name="ctr_stop">Stop</string>
+   <string name="ctr_pause">Pause</string>
+   <string name="ctr_resume">Resume</string>
+   <string name="ctr_setting">Setting</string>
+   
+   <!-- menu -->
+   <string name="menu_do_crawl">Do Crawl</string>
+   <string name="menu_home">Home</string>
+   <string name="menu_clean_data">Clean Data</string>
+   <string name="menu_setting">Setting</string>
+   <string name="menu_quit">Quit</string>
+   <!-- TOAST  -->
+   <string name="toast_untitled">Untitled</string>
+   <string name="toast_unsupported_url">Do not support this page</string>
+   <string name="toast_pause_crawl">crawl process will pause</string>
+   <string name="toast_resume_crawl">resume crawl process</string>
+   <string name="toast_stop_crawl">crawl process will stop</string>
+   <string name="toast_crawl_has_finished">crawl process has finished</string>
+   <string name="toast_pause_crawl_non_wifi">Pause crawl process in non-wifi environment</string>
+   <string name="toast_resume_crawl_in_wifi">Resume crawl process in wifi environment</string>
+   <string name="toast_crawl_in_wifi">Now can \' t crawl in non-wifi</string>  
+   <string name="toast_clean_data_in_bg">Clean offline data in background</string>  
+   <string name="toast_offline_data_has_clean">Offline data has cliean</string>  
+    <string name="toast_now_is_cleaning_data">Is cleaning up the data ,please excute crawl task later</string>  
+       
+   <string name="searchLabel">search</string>  
+   <string name="searchHint">search any keyworkds</string>   
+   
+       
+   
+        
+
+</resources>

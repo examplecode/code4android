@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TinyCrawlerActivity!</string>
+     <string name="page_status_offline">离线</string>
+    <string name="app_name">网页爬虫</string>
+    <string name="ex_c_menu_tab_text">抓取网页</string>
+    <string name="ex_c_menu_link_text">抓取网页</string>
+    
+    <string name="activity_lab_crawl_control_panel">抓取控制面板</string>
+    <string name="activity_lab_crawl_history">抓取历史</string>
+    <string name="activity_lab_crawl_setting">设置</string>
+    
+        
+        
+    <string name="title_crawl_data_dir">设置抓取数据存放目录</string>
+    <string name="summary_crawl_data_dir">设置你希望存放抓取数据的目录，通常是sd卡的某个目录</string>
+    <string name="dialog_title_crawl_data_dir">设置目录</string>
+    
+   
+   <string name="title_crawl_in_wifi_env">仅在wifi环境下抓取</string>  
+   <string name="summary_crawl_in_wifi_env">设置了该选项抓取任务仅仅在wifi环境下才执行，非wifi环境抓取任务会自动暂停</string>  
+    
+   <string name="title_download_image">是否抓取图片</string>  
+   <string name="summary_download_image">如果需要减少网络流量，加快抓取速度可关闭此选项</string>      
+  
+  
+   <string name="title_list_crawl_level">设置默认抓取级别</string>  
+   <string name="summary_list_crawl_level">设置默认抓取级别</string>  
+   <string name="dialog_title_crawl_level">选择默认抓取级别</string>  
+   
+     <!-- crawl service status -->
+   
+    <string name="srv_name">爬虫</string>
+    <string name="srv_crawl_started">开始抓取 ...</string>
+    <string name="srv_crawl_progress">已抓取 :[%1$s]/剩余 : [%2$s] </string>
+    <string name="srv_crawl_running">正在抓取</string>
+    <string name="srv_crawl_finished">抓取完成</string>
+    <string name="srv_crawl_paused">抓取已暂停</string>
+    <string name="srv_crawl_stop_on_error">抓取遇到错误停止</string>
+    <string name="srv_crawl_cancel">抓取任务已经取消</string>
+    
+    <string name="ctr_stop">停止</string>
+   <string name="ctr_pause">暂停</string>
+   <string name="ctr_resume">继续</string>
+   <string name="ctr_setting">设置</string>
+   
+        <!-- menu -->
+   <string name="menu_home">主页</string>
+   <string name="menu_do_crawl">抓取</string>
+   <string name="menu_clean_data">清除数据</string>
+   <string name="menu_setting">设置</string>
+   <string name="menu_quit">退出</string>
+   
+       
+     <!-- TOAST  -->
+   <string name="toast_untitled">未命名</string>
+   <string name="toast_unsupported_url">不支持对该页面的抓取</string>
+   <string name="toast_pause_crawl">暂停抓取任务</string>
+   <string name="toast_resume_crawl">恢复抓取任务</string>
+   <string name="toast_stop_crawl">停止抓取任务</string>
+   <string name="toast_crawl_has_finished">抓取任务已经停止</string>
+   <string name="toast_pause_crawl_non_wifi">切换至非wifi网络，暂停抓取任务</string>
+   <string name="toast_resume_crawl_in_wifi">切换至wif网络，恢复抓取任务</string>
+   <string name="toast_crawl_in_wifi">非wifi环境禁止抓取</string>
+   <string name="toast_clean_data_in_bg">在后台清理离线数据中...</string>  
+   <string name="toast_offline_data_has_clean">离线数据已经清除</string>  
+   <string name="toast_now_is_cleaning_data">当前正在清理抓取数据，请稍后执行抓取任务</string>  
+       
+   <string name="searchLabel">search</string>  
+   <string name="searchHint">search any keyworkds</string>  
+   
+        
+
+</resources>
