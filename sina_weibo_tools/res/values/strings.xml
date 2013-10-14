@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status">请先登陆</string>
+    <string name="app_name">WeiboTools</string>
+    <string name="login">登陆</string>
+    <string name="logout">注销</string>
+    <string name="search_content">根据搜索内容自动加关注</string>
+    <string name="search_user">根据搜索用户自动加关注</string>
+    <string name="unfllow_expire_user">取消对已有用户的关注</string>
+    <string name="forward_users_message">根据搜索用户自动加关注</string>
+    <string name="post_and_at_search_content">发送消息@搜索内容</string>
+    <string name="post_and_at_search_user">发送消息@搜索用户</string>
+   
+
+    <string name="fire">fire</string>
+    <string name="remove_fan">remove fan</string>
+    <string name="keywordsSeting">keywordsSeting</string>
+    <!-- login dlg -->
+    <string name="user_name">用户名</string>
+    <string name="passwd">密码</string>
+    
+    <string name="login_dlg_title">登陆</string>
+
+    <string name="login_btn_ok">确定</string>
+    <string name="login_btn_cancel">取消</string>
+    
+    <string name="search_btn">搜索</string>
+    <string name="search_cancel">取消</string>
+    
+    <string name="status_task_finished">"任务执行完毕"</string>
+    
+</resources>

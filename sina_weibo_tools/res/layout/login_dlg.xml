@@ -1,0 +1,52 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+     android:orientation="vertical"  
+     android:layout_width="fill_parent"  
+     android:layout_height="wrap_content"  
+     >  
+     <TextView    
+     android:id="@+id/lab_name"  
+     android:layout_width="fill_parent"   
+     android:layout_height="wrap_content"   
+     android:layout_marginLeft="20dip"  
+     android:layout_marginRight="20dip"  
+     android:text="@string/user_name"  
+     android:gravity="left"  
+     android:textAppearance="?android:attr/textAppearanceMedium">  
+     </TextView>  
+       
+     <EditText   
+         android:id="@+id/username"  
+         android:layout_height="wrap_content"   
+         android:layout_width="fill_parent"   
+         android:layout_marginLeft="20dip"  
+         android:layout_marginRight="20dip"  
+         android:autoText="true"  
+         android:capitalize="none"  
+         android:gravity="fill_horizontal"  
+         android:textAppearance="?android:attr/textAppearanceMedium">  
+     </EditText>  
+   
+     <TextView    
+     android:id="@+id/lab_passwd"  
+     android:layout_width="fill_parent"   
+     android:layout_height="wrap_content"   
+     android:layout_marginLeft="20dip"  
+     android:layout_marginRight="20dip"  
+     android:text="@string/passwd"  
+     android:gravity="left"  
+     android:textAppearance="?android:attr/textAppearanceMedium">  
+     </TextView>  
+           
+     <EditText   
+         android:id="@+id/password"  
+         android:layout_height="wrap_content"   
+         android:layout_width="fill_parent"   
+         android:layout_marginLeft="20dip"  
+         android:layout_marginRight="20dip"  
+         android:autoText="false"  
+         android:capitalize="none"  
+         android:gravity="fill_horizontal"  
+         android:password="true"  
+         android:textAppearance="?android:attr/textAppearanceMedium">  
+     </EditText>  
+ </LinearLayout>
